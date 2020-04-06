@@ -8,7 +8,7 @@ require_relative 'lib/order_list'
 require_relative 'lib/checker_input'
 require_relative 'lib/dao'
 
-#set :bind, '0.0.0.0'
+set :bind, '0.0.0.0'
 
 configure do
   set :flights, Dao.read_flight
