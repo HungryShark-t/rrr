@@ -7,9 +7,9 @@ require 'erb'
 require 'tmpdir'
 
 REQUIRED_RUBY_VERSION='2.6.5'
-APP_DIR = File.expand_path('/srv/airport-app')
+APP_DIR = File.expand_path('/srv/airportWeb')
 SERVICE_NAME = 'application'
-APP_USER = 'airport-app'
+APP_USER = 'airportWeb'
 
 
 class Deploy
